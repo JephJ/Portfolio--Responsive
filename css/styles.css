@@ -1,9 +1,46 @@
-body {
-  background-color: antiquewhite;
+:root {
+  --primary-color: antiquewhite;
+  --secondary-color: blue;
+  --heading-font: "Playfair Display" , serif;
+  --default-font: "Poppins", sans-serif;
+  --body-bgcolor : aquamarine;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font) ;
+  font-weight: bold;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-family: "Playfair Display", serif;
+  font-size: 90px;
+}
+
+body {
+  background-color:  var(--body-bgcolor);
+}
+
+.pagebody {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 160px 35 px;
+}
+.pagebody p {
+  font-family: var (--default-font);
+  font-size: 26px;
   font-weight: bold;
+}
+.pagebody h2 {
+  font-family:  var(--default-font)
+    font-weight: normal;
+  font-size: 24px;
+}
+.btn-primary {
+  background-color: var (--secondary-color);
+  border-radius: 6px;
+  color: white;
+  padding: 12px 20 px;
+  font-size: 18px;
 }
