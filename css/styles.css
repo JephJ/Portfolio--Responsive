@@ -1,25 +1,31 @@
 :root {
   --primary-color: antiquewhite;
   --secondary-color: blue;
-  --heading-font: "Playfair Display" , serif;
+  --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
-  --body-bgcolor : aquamarine;
-
+  --body-bgcolor: aquamarine;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--heading-font) ;
+  font-family: var(--heading-font);
   font-weight: bold;
 }
 
 h1 {
   font-size: 90px;
 }
+h2 {
+  font-size: 60px;
+}
 
 body {
-  background-color:  var(--body-bgcolor);
+  background-color: var(--body-bgcolor);
+}
+p {
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .pagebody {
@@ -33,8 +39,8 @@ body {
   font-weight: bold;
 }
 .pagebody h2 {
-  font-family:  var(--default-font)
-    font-weight: normal;
+  font-family: var(--default-font);
+  font-weight: normal;
   font-size: 24px;
 }
 .btn-primary {
@@ -43,4 +49,26 @@ body {
   color: white;
   padding: 12px 20 px;
   font-size: 18px;
+  border: 1px solid black;
 }
+.learmore {
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+  color: white;
+  padding: 18px 20px;
+  font-size: 16px;
+  line-height: 35px;
+  border: 1px solid black;
+}
+imgs{
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+@media (max-width:960){
+  .done-project{padding: none;
+  text-align: center;}
+}
+.done-project{padding: 120px 60 px;}
+
