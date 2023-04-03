@@ -70,3 +70,17 @@ p {
 .done-projects {
   padding: 120px 60 px;
 }
+.about-section h1 {
+  font-size: 100px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+.about-section{
+padding: 160px 20px;}
+.about-section-content {
+  margin: 30px ;
+  margin-top: 100px;
+}
