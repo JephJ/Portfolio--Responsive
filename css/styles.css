@@ -85,3 +85,9 @@ p {
   margin: 30px;
   margin-top: auto;
 }
+.content h3{
+ font-size: 18px;
+  font-family: var(--default-font);
+  
+
+}
