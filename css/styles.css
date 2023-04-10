@@ -13,7 +13,7 @@ h3 {
   font-weight: bold;
 }
 
-h1 {
+.pagebody h1 {
   font-size: 90px;
 }
 h2 {
@@ -31,7 +31,7 @@ p {
 .pagebody {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px 35 px;
+  padding: 70px
 }
 .pagebody p {
   font-family: var (--default-font);
@@ -91,3 +91,20 @@ p {
   
 
 }
+/*.logo{max-width: 150px;}
+nav li{ display: inline;
+list-style: none;
+line-height: 40px;}
+
+nav ul {
+  padding: 0%;
+  margin: 0%;
+}
+nav { padding: 36px;}
+nav a{margin-left: 10px;
+text-decoration: none;}
+nav a:hover{color: black;}
+nav li.active a{
+  color:black;
+}*/
+
