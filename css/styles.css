@@ -32,7 +32,7 @@ p {
 .pagebody {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 70px
+  padding: 70px;
 }
 .pagebody p {
   font-family: var (--default-font);
@@ -71,7 +71,7 @@ p {
 .done-projects {
   padding: 120px 60 px;
 }
-.content -container container  h1 {
+.content -container container h1 {
   font-size: 60px;
   line-height: 50px;
 }
@@ -79,18 +79,19 @@ p {
   font-size: 12px;
   font-family: var(--default-font);
 }
-.content{
+.content {
   padding: 100px 20px;
 }
-.content -container container  {
+.content -container container {
   margin: 30px;
   margin-top: auto;
 }
-.content h3{
- font-size: 18px;
+.content h3 {
+  font-size: 18px;
   font-family: var(--default-font);
-  
-
+}
+.nav {
+  background-color: aquamarine;
 }
 /*.logo{max-width: 150px;}
 nav li{ display: inline;
@@ -108,4 +109,3 @@ nav a:hover{color: black;}
 nav li.active a{
   color:black;
 }*/
-
